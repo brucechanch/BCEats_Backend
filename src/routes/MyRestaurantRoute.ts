@@ -30,6 +30,8 @@ router.put("/",
 upload.single("imageFile"),
   validateMyRestaurantRequest,
   jwtCheck,
-  jwtParse,)
+  jwtParse,
+MyRestaurantController.updateMyRestaurant
+)
 
 export default router;

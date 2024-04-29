@@ -84,4 +84,5 @@ return uploadResponse.url;
 export default{
   createMyRestaurant,
   getMyRestaurant,
+  updateMyRestaurant,
 }
